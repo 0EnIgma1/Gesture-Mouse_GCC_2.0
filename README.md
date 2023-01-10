@@ -29,3 +29,7 @@ Gesture Mouse is an system application that can mimic and replace the functional
 >- Move right
 >- Scroll up
 >- Scroll down
+
+## NOTE:
+
+This application's performance is based on the computational power of the system. High computational power will provide better and smooth results.
