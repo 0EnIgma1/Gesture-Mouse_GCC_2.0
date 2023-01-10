@@ -20,6 +20,12 @@ Gesture Mouse is an system application that can mimic and replace the functional
 
 >- Webcam
 
-### NOTE:
+## Functionalites
 
-The performance of this application is based on the computational power of the device. High spec system can provide better and smooth results.
+>- Pointer movement
+>- Left click
+>- Right click
+>- Move left
+>- Move right
+>- Scroll up
+>- Scroll down
