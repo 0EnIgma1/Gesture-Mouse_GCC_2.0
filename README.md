@@ -9,12 +9,12 @@ Gesture Mouse is an system application that can mimic and replace the functional
 
 ## Tech Stack
 
--> Python
--> OpenCV
--> Mediapipe
--> Tennsorflow
--> pyautogui
--> numPy
+>- Python
+>- OpenCV
+>- Mediapipe
+>- Tennsorflow
+>- pyautogui
+>- numPy
 
 ### Hardware requirements
 
