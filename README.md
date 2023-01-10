@@ -18,7 +18,7 @@ Gesture Mouse is an system application that can mimic and replace the functional
 
 ### Hardware requirements
 
--> Webcam
+>- Webcam
 
 ### NOTE:
 
