@@ -20,10 +20,6 @@ Gesture Mouse is an system application that can mimic and replace the functional
 
 >- Webcam
 
-
-https://user-images.githubusercontent.com/72484657/211465464-5c473931-d3b8-41dc-bb62-6ccf98a06c2a.mp4
-
-
 ## Functionalites
 
 >- Pointer movement
@@ -37,10 +33,6 @@ https://user-images.githubusercontent.com/72484657/211465464-5c473931-d3b8-41dc-
 <p align = "center">
 <img src = "https://github.com/0EnIgma1/Gesture-Mouse/blob/main/GESTURES.png", width = "600">
 </p>
-
-## DEMO
-
-https://user-images.githubusercontent.com/72484657/211465116-ed85dca7-207f-492c-b624-e9c47a4aa8ca.mp4
 
 ## NOTE:
 
