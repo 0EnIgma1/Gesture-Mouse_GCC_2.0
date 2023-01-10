@@ -30,12 +30,6 @@ Gesture Mouse is an system application that can mimic and replace the functional
 >- Scroll up
 >- Scroll down
 
-
-
-https://user-images.githubusercontent.com/72484657/211466463-c325d193-b8ea-4c1c-9538-968ef3261261.mp4
-
-
-
 <p align = "center">
 <img src = "https://github.com/0EnIgma1/Gesture-Mouse/blob/main/GESTURES.png", width = "600">
 </p>
