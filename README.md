@@ -34,6 +34,10 @@ Gesture Mouse is an system application that can mimic and replace the functional
 <img src = "https://github.com/0EnIgma1/Gesture-Mouse/blob/main/GESTURES.png", width = "600">
 </p>
 
+## DEMO
+
+https://github.com/0EnIgma1/Gesture-Mouse/blob/main/screen-recorder-tue-jan-10-2023-03-12-35.webm
+
 ## NOTE:
 
 This application's performance is based on the computational power of the system. High computational power will provide better and smooth results.
