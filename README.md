@@ -36,7 +36,7 @@ Gesture Mouse is an system application that can mimic and replace the functional
 
 ## DEMO
 
-screen-recorder-tue-jan-10-2023-03-12-35.mp4
+https://user-images.githubusercontent.com/72484657/211465116-ed85dca7-207f-492c-b624-e9c47a4aa8ca.mp4
 
 ## NOTE:
 
