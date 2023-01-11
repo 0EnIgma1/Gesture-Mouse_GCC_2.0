@@ -29,6 +29,8 @@ Gesture Mouse is an system application that can mimic and replace the functional
 >- Move right
 >- Scroll up
 >- Scroll down
+>- Zoom In
+>- Zoom Out
 
 <p align = "center">
 <img src = "https://github.com/0EnIgma1/Gesture-Mouse/blob/main/GESTURES.png", width = "600">
