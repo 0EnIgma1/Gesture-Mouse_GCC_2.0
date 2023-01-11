@@ -7,6 +7,7 @@ import time
 import numpy as np
 from tkinter import filedialog
 from tkinter.filedialog import asksaveasfilename
+from math import hypot
 
 #from cvzone.HandTrackingModule import HandDetector
 pyautogui.FAILSAFE = False
@@ -185,6 +186,7 @@ cap.set(3,wcam)
 cap.set(4,hcam)
 pTime = 0
 
+thres = 70
 #calculate focal length and distance
 #distance -> the initial distance through which the focal length is found
 '''H -> initial height of the face/object detectionbox when 
@@ -256,7 +258,7 @@ def gesture(fingers):
         except:
             print("SCreenshot Cancelled")
             pass'''
-
+dum = []
 delay = True
 def main(pTime):
     plocX, plocY = 0,0
@@ -287,6 +289,25 @@ def main(pTime):
                 y3 = np.interp(y1, (frame,hcam - frame), (0,hscr))
                 
                 
+                if fingers==[1,1,0,0,1]:
+                    zx1, zy1 = lmlist[8][1],lmlist[8][2]
+                    zx2, zy2 = lmlist[4][1], lmlist[4][2]
+
+                    cv2.circle(img, (zx1,zy1), 12, (108,47,0), cv2.FILLED)
+                    cv2.circle(img, (zx2, zy2), 12, (108,47,0), cv2.FILLED)
+
+                    cv2.line(img, (zx1, zy1), (zx2,zy2), (108,47,0),2)
+
+                    length = np.array([hypot((zx1 - zx2), (zx2 - zy2))])
+                    
+                    dum.append(length)
+                    if (length <= thres) :
+                        with pyautogui.hold('ctrl'):
+                            pyautogui.scroll(-2)
+                    elif (length > thres):
+                        with pyautogui.hold('ctrl'):
+                            pyautogui.scroll(2)
+                    
 
                 if fingers==[1,1,1,0,0]:
                     #smoothen
@@ -331,3 +352,6 @@ def main(pTime):
             break
     cv2.destroyAllWindows()
 main(pTime)
+print(max(dum), min(dum))
+
+
