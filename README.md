@@ -1,9 +1,6 @@
-# Gesture-Mouse
+# Gesture-Mouse (GCC_2.0)
 
-### Developed by
-
-- Naveen kumar S
-- Arjun Prakash
+### Upgraded version of GCC_1.0
 
 Gesture Mouse is an system application that can mimic and replace the functionalities of mouse with the help of a webcam in real time. This application can ease and improve human computer interaction, and can be implemented in various fields such as smart education, Business presentation, Medical Simulations, Virtual reality, smart home and many more. 
 
